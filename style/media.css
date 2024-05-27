@@ -63,6 +63,45 @@
     }
 }
 @media screen and (max-width: 768px) {
+    .about__text {
+        width: 500px;
+    }
+    .product__inner {
+        flex-direction: column;
+        gap: 20px
+    }
+    .example__info {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .example__item {
+        padding: 0;
+        width: 100%;
+    }
+    .product {
+        padding-top: 60px;
+    }
+    .product__img {
+        width: 350px;
+        max-width: none;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+    .product__card {
+        inset: -40px 0px 0px -64px;
+    }
+    .product__block-info {
+        width: 100%;
+        padding: 0 15px;
+        margin-bottom: 80px;
+    }
+    .product__block-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
 }
 @media screen and (max-width: 576px) {
     h2 {
@@ -114,42 +153,17 @@
     .card__two h3 {
         padding-left: 35px;
     }
-    .example__info {
-        width: 90%;
-        margin-bottom: 20px;
-    }
     .example__info-text {
         margin-bottom: 35px;
-    }
-    .example__item {
-        padding: 0;
-        width: 100%;
     }
     .example {
         padding: 130px 15px;
     }
-    .product {
-        padding-top: 60px;
-    }
-    .product__inner {
-        flex-direction: column;
-        gap: 20px
-    }
-    .product__img {
-        width: 350px;
-        max-width: none;
-        padding: 0 10px;
-    }
-    .product__card {
-        inset: -40px 0px 0px 32px;
-    }
-    .product__block-info {
-        width: 100%;
-        padding: 0 15px;
-        margin-bottom: 80px;
-    }
     .footer__inner {
         padding: 45px 10px 10px 21px;
+    }
+    .product__card {
+        inset: -40px 0px 0px -13%;
     }
 }
 
@@ -157,10 +171,44 @@
     .menu__start {
         padding: 13px 22px;
     }
+    .header__info {
+        height: 725px;
+        padding: 54px 0 0 15px;
+    }
+    .header__title {
+        font-size: 30px;
+    }
+    .about__grid p {
+        max-width: 300px;
+    }
+    .header__text {
+        max-width: 300px;
+    }
+    .menu__start {
+        padding: 13px 22px;
+    }
     .about__grid-item_img {
-        width: 340px;
+        width: 300px;
     }
     .grid-item_inner-img {
-        width: 135px;
+        width: 95px;
     }
+    .product__img {
+        width: 310px;
+    }
+    .about__grid-item_title {
+        padding: 0;
+        margin: 0 auto ;
+    }
+    .card__two h3{
+        padding: 0;
+    }
+    .card__three h3 {
+        padding: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
 }
