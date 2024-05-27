@@ -100,7 +100,7 @@
         display: none;
     }
     .about {
-        padding: 0 5px 0 5px;
+        padding: 0 5px 0 10px;
     }
     .about__text {
         width: auto;
@@ -136,7 +136,7 @@
         gap: 20px
     }
     .product__img {
-        width: 380px;
+        width: 350px;
         max-width: none;
         padding: 0 10px;
     }
@@ -150,5 +150,17 @@
     }
     .footer__inner {
         padding: 45px 10px 10px 21px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .menu__start {
+        padding: 13px 22px;
+    }
+    .about__grid-item_img {
+        width: 340px;
+    }
+    .grid-item_inner-img {
+        width: 135px;
     }
 }
